@@ -1,4 +1,4 @@
 import { treaty } from "@elysiajs/eden";
 import type { App } from "../app/api/[[...slugs]]/route";
 
-export const client = treaty<App>("http://trashchat.aryannmn.dev").api;
+export const client = treaty<App>("https://trashchat.aryannmn.dev").api;
